@@ -12,7 +12,7 @@ pipeline {
         stage ('Build') {
             steps {
                 sh 'mvn -B -Dmaven.repo.local=.repository -Pbuild42 -DskipTests clean install'
-                sh 'mvn -B -Dmaven.repo.local=.repository -f updatesite/pom.xml clean install'
+                sh 'mvn -B -Dmaven.repo.local=.repository -f updateSite/pom.xml clean install'
             }
         }
 		stage ('archive') {
