@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.microsoft.sqlserver.mssql-jdbc"
+      label="Microsoft JDBC Driver for SQL Server"
+      version="6.5.3"
+      provider-name="Microsoft">
+
+   <description url="Microsoft JDBC Driver for SQL Server">
+      
+   </description>
+
+   <license url="http://www.opensource.org/licenses/mit-license.php">
+      
+   </license>
+
+   <plugin
+         id="com.microsoft.sqlserver.mssql-jdbc"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

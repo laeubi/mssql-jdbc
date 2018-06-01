@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="com.microsoft.sqlserver.mssql-jdbc" version="0.0.0">
+      <category name="com.microsoft.sqlserver"/>
+   </feature>
+   <category-def name="com.microsoft.sqlserver" label="Microsoft SQL Server"/>
+</site>
